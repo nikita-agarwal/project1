@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>resource</title>
+</head>
+<style>
+
+    /* unvisited link */
+    #a:link {
+        color:lightgrey;
+        text-decoration:none;
+        font-size:15px;
+    }
+    #a:hover {
+        color:blue;
+        text-decoration:underline;
+    }
+
+    /* unvisited link */
+    a:link {
+        color:white;
+        font-size:20px;
+        text-decoration:none;
+
+    }
+
+    /* visited link */
+    a:visited {
+        color:WHITE;
+        text-decoration:none;
+        font-size:20px;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color:yellow;
+        text-decoration:none;
+        font-size:20px;
+    }
+
+    /* selected link */
+    a:active {
+        color: yellow;
+        text-decoration:none;
+        font-size:20px;
+    }
+    #header {
+        background-color:black;
+        color:green;
+        text-align:left;
+        padding:12px;
+        padding-left:120px;
+        padding-right:80px;
+        margin:0;
+
+    }
+    #menu {
+        background-color:grey;
+        color:white;
+        text-align:left;
+        padding:5px;
+        padding-left:120px;
+
+    }
+
+    #footer {
+        background-image:url("bomb-axx-footer.png");
+        background-color:black;
+        color:lightgrey;
+        clear:both;
+        text-align:left;
+        padding:50px;
+        margin:0;
+        background-repeat:no-repeat;
+        background-position:right;
+    }
+    #section13{
+        background-color:white;
+        color:black;
+        height:1500px;
+        margin:0;
+        padding-top:100px;
+        padding-right:100px;
+
+    }
+    #verticalBox{
+        background-color:black;
+        color:white;
+        height:1150px;
+        width:300px;
+        float:right;
+        text-align:center;
+
+    }
+    #demo {
+        float:right;
+        padding-top:1190px;
+    }
+
+    #demo .wrapper {
+        display: inline-block;
+        width: 150px;
+        background-color:lightblue;
+        height: 20px;
+        position: relative;
+        float:right;
+        text-align:center;
+    }
+
+
+    #demo .content {
+        position: absolute;
+
+        display: block;
+        z-index: 1;
+        height: 0;
+        width: 150px;
+        padding-top: 30px;
+
+    }
+
+    #demo .wrapper:active .content {
+        height: 450px;
+        z-index: 3;
+    }
+
+    #demo .content:hover {
+        height: 450px;
+        z-index: 3;
+    }
+
+
+    #demo .content ul {
+        background: #fff;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+
+    }
+
+    #demo .content ul a {
+        text-decoration: none;
+    }
+
+    #demo .content li:hover {
+        background: #eee;
+        color: #333;
+    }
+
+    #demo .content li {
+        list-style: none;
+        text-align: left;
+        color: #888;
+        font-size: 14px;
+        line-height: 150px;
+        height: 150px;
+        padding-left: 10px;
+        padding-top:2px;
+    }
+</style>
+<body>
+
+<div id="header">
+    <img src="index.png" width="300px" height="50px">
+    <a href="https://twitter.com/designbombs" alt="please check your internet connection"><img src="l.jpg" height="60px" width="80px" align="right"border="3px solid black"></a>
+    <a href="https://www.facebook.com/designbombs?_rdr" alt="please check your internet connection"><img src="images.jpg" height="60px" width="80px" align="right"border="3px solid black"></a>
+</div>
+
+<div id="menu">
+    <pre> <a href="home.html" alt="home">home</a>   <a href="gallery.html" alt="gallery">gallery</a>   <a href="articles.html" alt="articles">articles</a>   <a href="resources.html" alt="resources">resources</a></pre>
+</div>
+<div id="section13">
+    <div id="verticalBox">
+
+        <h2>Front/Back-End Developement Tutorials</h2>
+
+        <p ><ul style="color:grey;text-align:left;">
+        <li><a target="blank" href="https://css-tricks.com/"style="color:grey;">CSS Tricks</a></li>
+        <li><a target="blank" href="http://davidwalsh.name/"style="color:grey;">David Walsh</a></li>
+        <li><a target="blank" href="http://cssglobe.com/"style="color:grey;">CSS Globe</a></li>
+        <li><a target="blank" href="http://usabilitypost.com/"style="color:grey;">Usability Post</a></li>
+        <li><a target="blank" href="http://code.tutsplus.com/"style="color:grey;">Net Tuts</a></li>
+        <li><a target="blank" href="http://www.learningjquery.com/"style="color:grey;">Learning jQuery</a></li></ul></p>
+
+        <h2>Design Articles, Freebies, & Round Ups</h2>
+        <p ><ul style="color:grey;text-align:left;">
+        <li><a target="blank" href="http://www.smashingmagazine.com/"style="color:grey;">Smashing Magazine</a></li>
+        <li><a target="blank" href="http://www.vandelaydesign.com/blog/"style="color:grey;">Vandelay Design Blog</a></li>
+        <li><a target="blank" href="http://designm.ag/"style="color:grey;">Design Mag</a></li>
+        <li><a target="blank" href="http://sixrevisions.com/"style="color:grey;">Six Revision</a></li>
+        <li><a target="blank" href="http://www.1stwebdesigner.com/"style="color:grey;">1st Web Designer</a></li>
+        <li><a target="blank" href="http://www.myinkblog.com/"style="color:grey;">My Ink Blog</a></li>
+        <li><a target="blank" href="http://www.webdesignerdepot.com/"style="color:grey;">Web Designer Depot</a></li>
+        <li><a target="blank" href="http://webdesignledger.com/"style="color:grey;">Web Design Ledger</a></li>
+        <li><a target="blank" href="http://www.noupe.com/"style="color:grey;">Noupe</a></ul></p>
+
+        <h2>Photoshop / Illustrator Tutorials & Resources</h2>
+        <p ><ul style="color:grey;text-align:left;">
+        <li><a target="blank" href="http://blog.spoongraphics.co.uk/"style="color:grey;">Spoon Graphics</a></li>
+        <li><a target="blank" href="http://design.tutsplus.com/"style="color:grey;">Vector Tuts</a></li>
+        <li><a target="blank" href="http://design.tutsplus.com/"style="color:grey;">PSD Tuts</a></li>
+        <li><a target="blank" href="http://gomedia.com/zine/"style="color:grey;">GoMediaZine</a></li>
+        <li><a target="blank" href="http://webdesignerwall.com/"style="color:grey;">Web Designer Wall</a></li>
+        <li><a target="blank" href="http://veerle.duoh.com/"style="color:grey;">Veerle</a></li>
+        <li><a target="blank" href="http://aiburn.com/"style="color:grey;">Ai Burn</a></li>
+        <li><a target="blank" href="http://www.tutorial9.net/"style="color:grey;">Tutorial 9</a></li>
+        <li><a target="blank" href="http://justcreative.com/"style="color:grey;">Just Creative Design</a></li></ul></p>
+
+        <h2>Deals and Freebies</h2>
+        <p ><ul style="color:grey;text-align:left;">
+
+        <li><a target="blank" href="http://www.mightydeals.com/"style="color:grey;">Mighty Deals</a></li>
+        <li><a target="blank" href="http://dmad.com/verizon-fios-deal"style="color:grey;">Fios Deals</a></li>
+        <li><a target="blank" href="http://www.juicygraphics.net/freebies/"style="color:grey;">Juicy Design Freebies</a></li>
+        <li><a target="blank" href="http://www.premiumpixels.com/"style="color:grey;">Premium Pixels</a></li>
+        <li><a target="blank" href="http://www.pixeden.com/free-design-web-resources"style="color:grey;">Pixeden</a></li></ul></p>
+
+    </div>
+
+    <p style="padding-right:490px;">
+        <a href="" style="color:red;">  <img src="ap.png" height="300px" width="600px"><br>
+            Grid</a><br>
+        A simple guide to responsive design.<br>
+
+        <a href="" style="color:red;">  <img src="ap1.png" height="300px" width="600px"><br>
+            A Guide to Create Kickass Animation</a><br>
+        A collection of important resources to learn everything from the basics to how
+        others apply more advanced theories in creating subtle details.<br>
+
+
+        <a href="" style="color:red;">  <img src="ap2.png" height="300px" width="600px"><br>
+            Tridiv</a><br>
+        Tridiv is a web-based editor for creating 3D shapes in CSS. 2545<br>
+    </p>
+
+</div>
+<div id="footer">
+
+    <h1 style="color:green;"><b><pre>	DB </pre></b></h1>
+    <pre>	© 2013 Design Bombs. <a id=a href="about.html">About.</a> <a id=a href="privacy.html">Privacy Policy</a></pre>
+</div>
+
+</body>
+</html>
+
