@@ -49,6 +49,8 @@
     position:relative;
     top:100px;
     right:375px;
+    color:white;
+    text-align:center;
 }
 .block2{
     background-color:red;
@@ -59,6 +61,8 @@
     position:relative;
     top:315px;
     right:105px;
+    color:white;
+    text-align:center;
 
 }
 .block3{
@@ -70,6 +74,8 @@
     position:relative;
     top: 480px;
     right:-170px;
+    color:white;
+    text-align:center;
 }
 .block4{
     background-image:url("bg_poll2.png");
@@ -80,6 +86,8 @@
     position:relative;
     top:615px;
     right:-440px;
+    color:white;
+    text-align:center;
 }
 .block5{
     background-color:white;
@@ -90,6 +98,8 @@
     float:right;
     top:940px;
     left:715px;
+    color:white;
+    text-align:center;
 }
 .block6 {
     background-color: lightskyblue;
@@ -145,12 +155,9 @@ ul{
     line-height: 25px;
     font-size:12px;
 }
-p{
-    color:white;
-    padding-left:100px;
-}
-h3{
-    text-shadow:2px 2px 2px red;
+p {
+    color: white;
+    padding-left: 100px;
 }
 .button{
     height:50px;
