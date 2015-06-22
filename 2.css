@@ -98,7 +98,7 @@
     float:right;
     top:940px;
     left:715px;
-    color:white;
+    color:lightblue;
     text-align:center;
 }
 .block6 {
@@ -155,7 +155,7 @@ ul{
     line-height: 25px;
     font-size:12px;
 }
-p {
+.p {
     color: white;
     padding-left: 100px;
 }
