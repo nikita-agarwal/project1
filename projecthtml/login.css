@@ -352,9 +352,6 @@ hr{
         0%  {background:WHITE; transform:scale(1,1);}
         100%  {background: #1947A3;  transform:scale(5,3);}
     }
-.animation:hover{
-    animation-play-state: paused;
-}
 .animation1{
     animation: myfirst1 3s infinite;
     animation-direction: alternate;
@@ -365,6 +362,45 @@ hr{
     0%  {font-size:12px}
     100%  {font-size:15px;}
 }
-.animation1:hover{
-    animation-play-state: paused;
+.photos img {
+    position: absolute;
+}
+.photos img:nth-of-type(1) {
+    left: 50px;
+    top: 50px;
+    transform: rotate(5deg);
+}
+
+.photos img:nth-of-type(2) {
+    left: 150px;
+    top: 100px;
+    transform: rotate(-10deg);
+}
+
+.photos img:nth-of-type(3) {
+    left: 250px;
+    top: 50px;
+    transform: rotate(7deg);
+}
+
+.photos img:nth-of-type(4) {
+    left: 350px;
+    top: 150px;
+    transform: rotate(-3deg);
+}
+
+.photos img:nth-of-type(5) {
+    left: 450px;
+    top: 50px;
+    transform: rotate(2deg);
+}
+.photos img:hover {
+    transform: rotate(380deg) scale(1.5);
+    z-index: 10;
+}
+.photos img {
+    transition: all 0.5s;
+    padding: 10px 10px 30px 10px;
+    background: white;
+    border: solid 1px black;
 }
