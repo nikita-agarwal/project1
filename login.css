@@ -1,11 +1,58 @@
-body{
-    margin:0px;
+.header{
+    background-color:#1947A3;
+    height:120px;
+    color:white;
+
 }
-.header {
-    background-color: #1947A3;
-    height: 120px;
-    width:auto;
+.footer{
+    background-color: #192D56;
+    height:220px;
+
 }
+.nav{
+    background-color:red;
+    height:40px;
+    margin-bottom: 5px;
+}
+
+.block{
+    background-image:url("header.jpg");
+    background-repeat:no-repeat;
+    height:189px;
+    position: relative;
+    top: -120px;
+    left: 240px;
+}
+.whiteblock{
+    background-color: white;
+    border-radius: 25px;
+    height:260px;
+    width:967px;
+    position: relative;
+    top: -100px;
+    left: 241px;
+}
+.bar{
+    background-color: red;
+    height:40px;
+    width:925px;
+    border-radius:5px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    color:white;
+    font-size:14px;
+    padding-left:5px;
+}
+.blank{
+    word-spacing:0px;
+    color:lightseagreen;
+
+}.header {
+     background-color: #1947A3;
+     height: 120px;
+     width:auto;
+ }
 .nav{
     background-color:red;
     height:40px;
@@ -19,7 +66,7 @@ body{
 }
 .section{
     background-color: #1947A3;
-    height:1500px;
+    height:600px;
     margin-top:-189px;
     margin-bottom:-189px;
     width:auto;
@@ -206,12 +253,41 @@ ul{
      left: 190px;
 
  }
- .img2{
-     position: relative;
-     top: 100px;
-     left: 180px;
+.img2{
+    position: relative;
+    top: 100px;
+    left: 180px;
 
- }
+}
+.login{
+    background-color: white;
+    height:400px;
+    width:960px;
+    border-radius:20px;
+    position: relative;
+    top: 85px;
+    left: 200px;
+    color:black;
+}
+.register{
+    background-color:white;
+    height:850px;
+    width:650px;
+    position: absolute;
+    left: 400px;
+    top: 335px;
+    transform: rotate(9deg);
+}
+
+.sectionregister{
+    background-color:  #1947A3;
+    height:1200px;
+    margin-top:-180px;
+    margin-bottom:-180px;
+}
+.form{
+    font-size:30px;
+}
 .fixed{
     color:white;
     background-color: red;
@@ -223,4 +299,72 @@ ul{
 .vertical{
     transform:rotate(-90deg);
 
+}
+.circular{
+    height:220px;
+    width:220px;
+    border-radius:110px;
+    background-color:white;
+    position: relative;
+    left: 189px;
+    top: 150px;
+    border:0px;
+}
+.h1:link{
+    margin-left:300px;
+    color:white;
+    font-size:30px;
+    display:block;
+    line-height:60px;
+}
+.h1:active
+{
+    color:black;
+}
+.h1:hover{
+    color:blue;
+}
+hr{
+    margin-top: 170px;
+}
+.info{
+
+    color:white;
+    text-align:justify;
+    padding-left:20px;
+    font-size:20px;
+    width:600px;
+    line-height:40px;
+    margin-left: 550px;
+    margin-top: -45px;
+}
+.animation{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    top: 150px;
+    left: 400px;
+    animation: myfirst 3s infinite;
+    animation-direction: alternate;
+}
+@keyframes myfirst {
+        0%  {background:WHITE; transform:scale(1,1);}
+        100%  {background: #1947A3;  transform:scale(5,3);}
+    }
+.animation:hover{
+    animation-play-state: paused;
+}
+.animation1{
+    animation: myfirst1 3s infinite;
+    animation-direction: alternate;
+    text-align:center;
+    color:white;
+}
+@keyframes myfirst1{
+    0%  {font-size:12px}
+    100%  {font-size:15px;}
+}
+.animation1:hover{
+    animation-play-state: paused;
 }
