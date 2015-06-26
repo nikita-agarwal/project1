@@ -35,12 +35,26 @@ body{
     width:auto;
 }
 .block{
-    background-image:url("header.jpg");
+    background-image:url(header.jpg);
     background-repeat:no-repeat;
     height:189px;
     margin-bottom:-10px;
     width:auto;
+    position:relative;
+    top:-119px;
+    left:189px;
 }
+.blocknew{
+    background-image:url(header.jpg);
+    background-repeat:no-repeat;
+    height:189px;
+    margin-bottom:-10px;
+    width:auto;
+    position:relative;
+    top:80px;
+    left:189px;
+}
+
 .products{
     background-color: white;
     width:650px;
@@ -229,3 +243,20 @@ ul{
     transform:rotate(-90deg);
 
 }
+#searchimage{
+    float: right;
+    position: relative;
+    right: 615px;
+    top: -100px;
+}
+a img{
+    margin-left:30px;
+    margin-top:30px;
+}
+.welcome{
+    color:white;
+    position: relative;
+    top: -100px;
+    left: 700px;
+}
+
