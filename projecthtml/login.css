@@ -86,6 +86,19 @@
     height:189px;
     margin-bottom:-10px;
     width:auto;
+    position:relative;
+    top:-119px;
+    left:189px;
+}
+.blocknew{
+    background-image:url("header.jpg");
+    background-repeat:no-repeat;
+    height:189px;
+    margin-bottom:-10px;
+    width:auto;
+    position:relative;
+    top:80px;
+    left:189px;
 }
 .products{
     background-color: white;
@@ -382,7 +395,6 @@ hr{
     top: 50px;
     transform: rotate(7deg);
 }
-
 .photos img:nth-of-type(4) {
     left: 350px;
     top: 150px;
@@ -403,4 +415,46 @@ hr{
     padding: 10px 10px 30px 10px;
     background: white;
     border: solid 1px black;
+}
+a img{
+    margin-left:30px;
+    margin-top:30px;
+}
+#searchimage{
+    float: right;
+    position: relative;
+    right: 615px;
+    top: -100px;
+}
+.imageanimation{
+    height:110px;
+    width:110px;
+}
+.welcome{
+    color:white;
+    position: relative;
+    top: -100px;
+    left: 700px;
+}
+.barlogin{
+    background-color: red;
+    height:50px;
+
+}
+video {
+    width: 100%;
+    height: auto;
+}
+.iframe1{
+    float:right;
+    height:450px;
+    width:900px;
+    background-image:url(banner_main.jpg);
+    background-repeat:no-repeat;
+    border:0px;
+}
+#index{
+    border-radius:110px;
+    height:220px;
+    width:220px
 }
