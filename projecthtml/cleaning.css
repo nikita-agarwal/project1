@@ -36,6 +36,19 @@
     height:189px;
     margin-bottom:5px;
     width:auto;
+    position:relative;
+    top:-119px;
+    left:189px;
+}
+.blocknew{
+    background-image:url("header.jpg");
+    background-repeat:no-repeat;
+    height:189px;
+    margin-bottom:5px;
+    width:auto;
+    position:relative;
+    top:80px;
+    left:189px;
 }
 .products{
     background-color: white;
@@ -256,4 +269,17 @@ ul{
 .vertical{
     transform:rotate(-90deg);
 
+}
+table{
+    padding-top:100px;
+}
+#searchimage{
+    float: right;
+    position: relative;
+    right: 615px;
+    top: -100px;
+}
+a img{
+    margin-left:30px;
+    margin-top:30px;
 }
