@@ -17,33 +17,47 @@
             width: 100%;
             margin: auto;
         }
+
     </style>
 </head>
-<body>
+<body style="margin-left:50px;">
 <button type="button" class="btn" style="position:fixed;transform:rotate(-90deg);top:100px;left:-30px">Complaint</button>
 <button type="button" class="btn" style="position:fixed;transform:rotate(-90deg);top:250px;left:-30px;">Feedback</button>
 <button type="button" class="btn" style="position:fixed;transform:rotate(-90deg);top:350px;left:-40px;">Order Status</button>
 <div class="container" >
     <div class="row" >
-        <a href="#" class="style"><img src="usaicon.gif" > United States </a>|
-        <a href="#" class="style"><img src="ukicon.jpg" > United Kingdom </a>|
-        <a href="#" class="style"><img src="sgicon.jpg" > Singapore </a>|
-        <span class="style1">Welcome Guest</span>
-        <a href="#" class="style1"><span class="glyphicon glyphicon-arrow-down"></span> DOWNLOAD APP</a>
-        <a href="#" class="style1"><span class="glyphicon glyphicon-map-marker"></span>CONTACT US</a>
-        <a href="#" class="style1"><span class="glyphicon glyphicon-user"></span> LOGIN</a>
-        <a href="#" class="style1"><img src="facebook icon.png"> LOGIN WITH FACEBOOK</a>
+        <div class="col-md-4 col-sm-4 " style="text-align:center;">
+            <a href="#" class="style"><img src="usaicon.gif" > United States </a>|
+            <a href="#" class="style"><img src="ukicon.jpg"> United Kingdom </a>|
+            <a href="#" class="style"><img src="sgicon.jpg"> Singapore </a>|
+        </div>
+        <div class="col-md-8 col-sm-8" >
+
+            <span class="style1">Welcome Guest</span>
+
+
+            <a href="#" class="style1"><span class="glyphicon glyphicon-arrow-down"></span> DOWNLOAD APP</a>
+
+            <a href="#" class="style1" ><span class="glyphicon glyphicon-map-marker"></span>CONTACT US</a>
+
+
+            <a href="#" class="style1"><span class="glyphicon glyphicon-user"></span> LOGIN</a>
+
+            <a href="#" class="style1" ><img src="facebook icon.png" > LOGIN WITH FACEBOOK</a>
+
+
+        </div>
     </div>
     <hr>
-    <div class="row">
-        <div class="col-sm-3">
-            <a href=""#><img src="yepme-logo.gif"></a>
+    <div class="row margin">
+        <div class="col-md-2 col-sm-2 col-xs-4">
+            <a href=""#><img src="yepme-logo.gif" class="img-responsive"></a>
         </div>
-        <div class="col-sm-9">
-            <input type ="text" placeholder="Search for Apparel,Footwear and Accessories" class="center" >
-            <button type="button" class="btn">
-                <span class="glyphicon glyphicon-search" style="color: white;"></span>SEARCH</button>
-        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4">
+            <input type ="text" placeholder="Search for Apparel,Footwear and Accessories" class="center form-control"></div>
+        <div class="col-md-6 col-sm-6 col-xs-4">  <button type="button" class="btn">
+            <span class="glyphicon glyphicon-search" style="color: white;"></span>SEARCH</button></div>
+
     </div>
 
     <!-- <nav class="navbar navbar-inverse margin" style="height:45px;" >
@@ -60,22 +74,45 @@
              </ul>
 
          </nav>-->
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div>
-                <ul class="nav navbar-nav">
+    <!--   <nav class="navbar navbar-inverse margin">
 
-                    <li><a href="#">MEN</a></li>
-                    <li><a href="#">WOMEN </a></li>
-                    <li><a href="#">WATCHES</a></li>
-                    <li><a href="#" id="a1">FUSSION WEAR</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#" id="a"> LOOKBOOK</a></li>
-                    <li><a href="#" ><img src="blog_butoon.png"></a></li>
-                </ul>
+               <div>
+                   <ul class="nav navbar-nav">
 
-            </div>
+                       <li><a href="#">MEN</a></li>
+                       <li><a href="#">WOMEN </a></li>
+                       <li><a href="#">WATCHES</a></li>
+                       <li><a href="#" id="a1">FUSSION WEAR</a></li>
+                   </ul>
+                   <ul class="nav navbar-nav navbar-right">
+                       <li><a href="#" id="a"> LOOKBOOK</a></li>
+                       <li><a href="#" ><img src="blog_butoon.png"></a></li>
+                   </ul>
+
+               </div>
+
+       </nav>-->
+    <nav class="navbar navbar-inverse margin">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav" id="nav">
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="#">MEN</a></li>
+                <li><a href="#">WATCHES</a></li>
+                <li><a href="#" id="a1">FUSSION WEAR</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" id="a"> LOOKBOOK</a></li>
+                <li><a href="#" ><img src="blog_butoon.png"></a></li>
+            </ul>
+
         </div>
     </nav>
 
@@ -138,28 +175,28 @@
     </div>
 
     <div class="row margin" >
-        <div class="col-sm-3">
+        <div class="col-md-3 col-sm-3 col-xs-3">
             <a href=#>   <img src="banner1.jpg"class="img-responsive"></a>
         </div>
-        <div class="col-sm-3">
+        <div class="col-md-3 col-sm-3 col-xs-3">
             <a href=#>  <img src="banner2.jpg"class="img-responsive"></a>
         </div>
-        <div class="col-sm-3">
+        <div class="col-md-3 col-sm-3 col-xs-3">
             <a href=#>  <img src="banner3.jpg"class="img-responsive" ></a>
         </div>
-        <div class="col-sm-3">
+        <div class="col-md-3 col-sm-3 col-xs-3">
             <a href=#>   <img src="banner4.jpg"class="img-responsive"></a>
         </div>
     </div>
 
     <div class="row margin" >
-        <div class="col-sm-4">
+        <div class="col-md-4 col-sm-4 col-xs-4">
             <a href=#> <img src="banner21.jpg"class="img-responsive"></a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-md-4 col-sm-4 col-xs-4">
             <a href=#>  <img src="banner22.jpg"class="img-responsive"></a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-md-4 col-sm-4 col-xs-4">
             <a href=#>  <img src="banner23.jpg"class="img-responsive" ></a>
         </div>
     </div>
@@ -172,21 +209,30 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active" >
                     <div class="1">
-                        <a href=#>  <img src="s1.jpg" ></a>
-                        <a href=#> <img src="s2.jpg"></a>
-                        <a href=#>  <img src="s3.jpg"></a>
-                        <a href=#> <img src="s4.jpg"></a>
                         <div class="row">
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="s1.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="s2.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="s3.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="s4.jpg" class="img-responsive"></a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link"><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
                         </div>
@@ -194,21 +240,30 @@
                 </div>
                 <div class="item">
                     <div class="2">
-                        <a href=#> <img src="s5.jpg" ></a>
-                        <a href=#>  <img src="s6.jpg"></a>
-                        <a href=#> <img src="s7.jpg"></a>
-                        <a href=#> <img src="s8.jpg"></a>
                         <div class="row">
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="s5.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="s6.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="s7.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="s8.jpg" class="img-responsive"></a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link"><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
                         </div>
@@ -216,21 +271,30 @@
                 </div>
                 <div class="item">
                     <div class="3">
-                        <a href=#> <img src="s9.jpg" ></a>
-                        <a href=#> <img src="s10.jpg"></a>
-                        <a href=#> <img src="s11.jpg"></a>
-                        <a href=#> <img src="s12.jpg"></a>
                         <div class="row">
-                            <div class="col-sm-3">
-                                <a href="#" class="link"><b>yepme never sleep...</b></a>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="s9.jpg" class="img-responsive"></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="s10.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="s11.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="s12.jpg" class="img-responsive"></a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href="#" class="link" ><b>yepme never sleep...</b></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link"><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
                         </div>
@@ -238,21 +302,30 @@
                 </div>
                 <div class="item">
                     <div class="4">
-                        <a href=#> <img src="s13.jpg"></a>
-                        <a href=#> <img src="s14.jpg"></a>
-                        <a href=#> <img src="s15.jpg"></a>
-                        <a href=#> <img src="s16.jpg"></a>
                         <div class="row">
-                            <div class="col-sm-3">
-                                <a href="#" class="link"><b>yepme never sleep...</b></a>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="s13.jpg" class="img-responsive"></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="s14.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="s15.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="s16.jpg" class="img-responsive"></a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href="#" class="link" ><b>yepme never sleep...</b></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link"><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
                         </div>
@@ -260,21 +333,30 @@
                 </div>
                 <div class="item">
                     <div class="5">
-                        <a href=#> <img src="s17.jpg"></a>
-                        <a href=#> <img src="s18.jpg"></a>
-                        <a href=#> <img src="s19.jpg"></a>
-                        <a href=#> <img src="s20.jpg"></a>
                         <div class="row">
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="s17.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="s18.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="s19.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="s20.jpg" class="img-responsive"></a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link"><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
                         </div>
@@ -302,22 +384,29 @@
                 <div class="item active" >
                     <div class="1">
                         <div class="row">
-                            <a href=#> <img src="p1.jpg"></a>
-                            <a href=#>  <img src="p2.jpg"></a>
-                            <a href=#> <img src="p3.jpg"></a>
-                            <a href=#> <img src="p4.jpg"></a>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="p1.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="p2.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="p3.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="p4.jpg" class="img-responsive"></a></div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link"><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
                         </div>
@@ -325,21 +414,30 @@
                 </div>
                 <div class="item">
                     <div class="2">
-                        <a href=#> <img src="p5.jpg" ></a>
-                        <a href=#>  <img src="p6.jpg"></a>
-                        <a href=#> <img src="p7.jpg"></a>
-                        <a href=#> <img src="p8.jpg"></a>
                         <div class="row">
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="p5.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="p6.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="p7.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="p8.jpg" class="img-responsive"></a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link"><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
                         </div>
@@ -347,29 +445,61 @@
                 </div>
                 <div class="item">
                     <div class="3">
-                        <a href=#> <img src="p9.jpg"></a>
-                        <a href=#> <img src="p10.jpg"></a>
-                        <a href=#> <img src="p11.jpg"></a>
-                        <a href=#> <img src="p12.jpg"></a>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="p9.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="p10.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="p11.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="p12.jpg" class="img-responsive"></a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href="#" class="link" ><b>yepme never sleep...</b></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href="#" class="link" ><b>yepme never sleep...</b></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href="#" class="link"><b>yepme never sleep...</b></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href="#" class="link" ><b>yepme never sleep...</b></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="4">
-                        <a href=#> <img src="p13.jpg" ></a>
-                        <a href=#> <img src="p14.jpg"></a>
-                        <a href=#> <img src="p15.jpg"></a>
-                        <a href=#> <img src="p16.jpg"></a>
                         <div class="row">
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="p13.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="p14.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="p15.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="p16.jpg" class="img-responsive"></a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link"><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
                         </div>
@@ -377,21 +507,30 @@
                 </div>
                 <div class="item">
                     <div class="5">
-                        <a href=#> <img src="p17.jpg"></a>
-                        <a href=#>  <img src="p18.jpg"></a>
-                        <a href=#> <img src="p19.jpg"></a>
-                        <a href=#> <img src="p20.jpg"></a>
                         <div class="row">
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="p17.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="p18.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#>  <img src="p19.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href=#> <img src="p20.jpg" class="img-responsive"></a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link"><b>yepme never sleep...</b></a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <a href="#" class="link" ><b>yepme never sleep...</b></a>
                             </div>
                         </div>
@@ -410,64 +549,63 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-3 p" >
+        <div class="col-md-3 p" >
             WE SUGGEST >
             <img src="a.png" class="dot">
             <img src="a.png" class="dot">
             <img src="a.png"class="dot">
         </div>
-        <div class="col-sm-9">
+        <div class="col-md-9">
             <hr class="hr">
         </div>
     </div>
     <div class="row margin">
-        <div class="col-sm-3">
-            <div class="image">
-                <a href="#">    <div class="box" >
-                    <h5>MEN COLLECTION</h5>
-                    <p>  BUY ONE GET ONE FREE</p>
-                    <br/>
-                    shop now
-                </div></a>
-                <a href="#"> <img src="link1.jpg"></a>
+        <div class="col-md-3 col-sm-3 col-xs-3">
 
-            </div>
+            <a href="#">    <div class="box" >
+                <h5>MEN COLLECTION</h5>
+                <p>  BUY ONE GET ONE FREE</p>
+                <br/>
+                shop now
+            </div></a>
+            <a href="#"> <img src="link1.jpg" class="img-responsive"></a>
+
+
         </div>
-        <div class="col-sm-3">
-            <div class="image">
-                <a href="#"> <div class="box" >
-                    <h5>WOMEN COLLECTION</h5>
-                    <p>  BUY ONE GET ONE FREE</p>
-                    <br/>
-                    shop now
-                </div></a>
-                <a href="#">  <img src="link2.jpg"></a>
+        <div class="col-md-3 col-sm-3 col-xs-3">
 
-            </div>
+            <a href="#">    <div class="box" >
+                <h5>MEN COLLECTION</h5>
+                <p>  BUY ONE GET ONE FREE</p>
+                <br/>
+                shop now
+            </div></a>
+            <a href="#"> <img src="link2.jpg" class="img-responsive"></a>
+
+
         </div>
-        <div class="col-sm-3">
-            <div class="image">
-                <a href="#"> <div class="box" >
-                    <h5>SUMMER COLLECTION</h5>
-                    <p>  Read More</p>
-                    <br/>
-                    shop now
-                </div></a>
-                <a href="#"> <img src="link3.jpg"></a>
+        <div class="col-md-3 col-sm-3 col-xs-3">
 
-            </div>
+            <a href="#"> <div class="box" >
+                <h5>SUMMER COLLECTION</h5>
+                <p>  Read More</p>
+                <br/>
+                shop now
+            </div></a>
+            <a href="#"> <img src="link3.jpg" class="img-responsive"></a>
+
         </div>
-        <div class="col-sm-3">
-            <div class="image">
-                <a href="#"><div class="box">
-                    <h5>LONDON CALLING</h5>
-                    <p> View More</p>
-                    <br/>
-                    shop now
-                </div></a>
-                <a href="#"> <img src="link4.jpg"></a>
+        <div class="col-md-3 col-sm-3 col-xs-3">
 
-            </div>
+            <a href="#"><div class="box">
+                <h5>LONDON CALLING</h5>
+                <p> View More</p>
+                <br/>
+                shop now
+            </div></a>
+            <a href="#"> <img src="link4.jpg" class="img-responsive"></a>
+
+
         </div>
     </div>
 
@@ -476,7 +614,7 @@
 <div class="row margin footer">
     <div class="container" style="padding:10px;">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul type="none">
                     <li><b>Yepme #freshfashion</b></li>
                     <li> <a href="#" class="style"> Who are we?</a></li>
@@ -505,7 +643,7 @@
                     <li> <a href="#" class="style"> Yepme Offers</a></li>
                 </ul>
             </div>
-            <div class="col-sm-3">
+            <div class="col-md-3 col-sm-3 col-xs-6 ">
                 <ul type="none">
                     <li><b>How do I!</b></li>
                     <li> <a href="#" class="style"> Buy a YEPME Product</a></li>
@@ -537,30 +675,30 @@
 
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="row">
-                    <div class="col-sm-8">
+                    <div class="col-md-8 col-sm-8 col-xs-8">
                         <h4>Subscribe Us</h4>
                         <p>Track the latest collections and offers at Yepme</p>
                         <input type="text" placeholder="EMAIL">
                         <button type="button" class="btn">Submit</button>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-md-4 col-sm-4 col-xs-4">
                         <div class="row">
                             <h4>FOLLOW US</h4>
                         </div>
                         <div class="row">
-                            <div class="col-sm-1">
+                            <div class="col-md-1 col-sm-1 ">
                                 <a href="#"> <div class="circular">
                                     <font color="white" class="icons"> <i class="fa fa-facebook"></i></font></div></a>
                             </div>
-                            <div class="col-sm-1">
+                            <div class="col-md-1 col-sm-1">
                                 <a href="#"> <div class="circular1"><font color="white" class="icons"><i class="fa fa-google-plus-square"></i></font></div></a>
                             </div>
-                            <div class="col-sm-1">
+                            <div class="col-md-1 col-sm-1 ">
                                 <a href="#"> <div class="circular2"> <font color="white" class="icons"><i class="fa fa-youtube-square"></i></font></div></a>
                             </div>
-                            <div class="col-sm-9"></div>
+                            <div class="col-md-9"></div>
                         </div>
 
                     </div>
@@ -569,15 +707,15 @@
                 <div class="row">
                     <hr style="color:black;background-color: black;height:1px;border:0px;"></div>
                 <div class="row">
-                    <div class="col-sm-4"><h1 class="heading">30</h1><p>Days Return</p></div>
-                    <div class="col-sm-4"><h1 class="heading">COD</h1><p>Cash On Delivery</p></div>
-                    <div class="col-sm-4"></div>
+                    <div class="col-md-4  col-sm-4 col-xs-6 "><h1 class="heading">30</h1><p>Days Return</p></div>
+                    <div class="col-md-4 col-sm-4 col-xs-6 "><h1 class="heading">COD</h1><p>Cash On Delivery</p></div>
+                    <div class="col-md-4 col-sm-4 "></div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-3"><a href="#"><img src="new1.png" class="img-responsive"></a></div>
-                    <div class="col-sm-3"><a href="#"><img src="new2.jpg" class="img-responsive"></a></div>
-                    <div class="col-sm-3"><a href="#"><img src="new3.png" class="img-responsive"></a></div>
-                    <div class="col-sm-3"></div>
+                    <div class="col-md-3 col-sm-3 col-xs-4 "><a href="#"><img src="new1.png" class="img-responsive"></a></div>
+                    <div class="col-md-3 col-sm-3 col-xs-4 "><a href="#"><img src="new2.jpg" class="img-responsive"></a></div>
+                    <div class="col-md-3 col-sm-3 col-xs-4 "><a href="#"><img src="new3.png" class="img-responsive"></a></div>
+                    <div class="col-md-3 col-sm-3 "></div>
                 </div>
 
                 <div class="row">
@@ -587,28 +725,27 @@
                         Cash on Delivery and India's largest selection of 0% EMI options.</p>
                 </div>
                 <div class="row">
-                    <div class="col-sm-2"><img src="visa_verified.png" class="img-responsive"></div>
-                    <div class="col-sm-2"><img src="mastercard-securecode-efce228e.small.gif" class="img-responsive"></div>
-                    <div class="col-sm-2"><img src="anew.jpg" class="img-responsive"></div>
-                    <div class="col-sm-2"><img src="d new.png" class="img-responsive"></div>
-                    <div class="col-sm-2"><img src="eminew.jpg" class="img-responsive"></div>
-                    <div class="col-sm-2"></div>
+                    <div class="col-md-2 col-sm-2 col-xs-3"><img src="visa_verified.png" class="img-responsive"></div>
+                    <div class="col-md-2 col-sm-2 col-xs-3"><img src="anew.jpg" class="img-responsive"></div>
+                    <div class="col-md-2 col-sm-2 col-xs-3"><img src="d new.png" class="img-responsive"></div>
+                    <div class="col-md-2 col-sm-2 col-xs-3"><img src="eminew.jpg" class="img-responsive"></div>
+                    <div class="col-md-2 col-sm-2 "></div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-3">
-                        <img src="getseal.gif">
+                    <div class="col-md-3 col-sm-3 col-xs-4">
+                        <img src="getseal.gif" class="img-responsive">
                     </div>
-                    <div class="col-sm-2">
-                        <img src="veryfied.png" class="margin">
+                    <div class="col-md-2 col-sm-2 col-xs-8">
+                        <img src="veryfied.png" class="margin img responsive">
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-md-7 col-sm-7 ">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-3">
-                        <a href="#">  <img src="letzchange_logo.png"></a>
+                    <div class="col-md-3 col-sm-3 ">
+                        <a href="#">  <img src="letzchange_logo.png" class="img-responsive"></a>
                     </div>
-                    <div class="col-sm-9"></div>
+                    <div class="col-md-9 col-sm-9 "></div>
                 </div>
 
             </div>
