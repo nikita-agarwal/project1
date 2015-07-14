@@ -1,0 +1,126 @@
+.style{
+    font-size:12px;
+    color:black;
+}
+.style:hover{
+    color:red;
+}
+.style1{
+    color:#B1B1B1;
+}
+.center{
+   text-align:center;
+    width:317px;
+    border:1px solid red;
+    height:33px;
+}
+.style2{
+    color:white;
+    text-decoration:none;
+}
+.style2:hover{
+    color:red;
+}
+.style3{
+    color:white;
+    text-decoration:none;
+}
+.link{
+    color:black;
+}
+.link:hover{
+    color:#f66f0c;
+}
+.box{
+    background-color:transparent;
+    color:transparent;
+    text-align:center;
+    position:absolute;
+    height:300px;
+    width:220px;
+}
+.box:hover{
+background-color:black; opacity:0.6;
+    color:white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color:red;
+}
+#a:hover{
+    color:white;
+}
+#a1:hover{
+    color:white;
+}
+.icons{
+    font-size:20px;
+}
+.circular{
+    background-color:#6495ED;
+    width:28px;
+    border-radius:50%;
+    text-align:center;
+    border:3px solid white;
+}
+.circular1{
+    background-color:darkred;
+    width:28px;
+    border-radius:50%;
+    text-align:center;
+    border:3px solid white;
+}
+.circular2{
+    background-color:red;
+    width:28px;
+    border-radius:50%;
+    text-align:center;
+    border:3px solid white;
+}
+.btn{
+    background-color:#f66f0c;
+    color:white;
+    border:0px;
+}
+.margin{
+    margin-top:25px;
+}
+.black{
+    background-color:black;
+    margin-top:15px;
+    color:white;
+    text-align:center;
+    height:35px;
+}
+.dot{
+    height:28px;
+    width:18px;
+ }
+.footer{
+    background: linear-gradient(#DDD, #F1F1F1);
+    width:100%;
+}
+.footer2{
+    width:100%;
+    background-color: #DCDCDC;
+}
+.para{
+    text-align:center;
+    color:#666;
+    margin:15px;
+}
+.heading{
+    margin-top:-10px;
+}
+.hr{
+    color:#B1B1B1;
+    background-color:#B1B1B1;
+    height:1px;
+    margin-top:35px
+}
+.p{
+    margin-top:35px;
+    color:#B1B1B1;
+}

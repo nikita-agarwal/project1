@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="admin.css" type="text/css" rel="stylesheet">
+
+</head>
+<body style="background-color:#1947A3">
+<table align="center">
+    <tr>
+        <td>
+            <div>
+                <img class="index" src="index.jpg">
+            </div>
+        </td>
+        <td>
+            <p style="color:white;text-align:center;">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.<br/>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div>
+                <img class="index" src="index.jpg">
+            </div>
+        </td>
+        <td>
+            <p style="color:white;text-align:center;">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.<br/>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div>
+                <img class="index" src="index.jpg">
+            </div>
+        </td>
+        <td>
+            <p style="color:white;text-align:center;">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.<br/>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        </td>
+    </tr>
+    <tr>
+        <td id="image">
+        </td>
+        <td id="comment">
+        </td>
+    </tr>
+
+    <br/><br/>
+    <tr>
+        <td>   <input type="file" accept=".jpg" id="bannerImage"></td>
+
+        <td>  <input type="textarea" style="width: 600px;height: 65px;" id="text"></td>
+
+        <td>  <input type="submit" name="feedback" value="feedback" onclick="feedback()"/></td>
+    </tr>
+
+
+
+
+    <!--<div class="circular">
+        <img class="index" src="index.jpg" >
+    </div><br/><br/>
+
+    <div class="circular">
+        <img class="index" src="index.jpg" >
+    </div><br/><br/>
+    <div class="circular">
+        <img class="index" src="index.jpg" >
+    </div>-->
+</table>
+<img src="" id="tableBanner" />
+</body>
+</html>
+
+
+
+<script>
+    var feedback = function () {
+        var customer = {
+
+            'userfeedback': document.getElementById('text').value
+
+        };
+
+        bannerImage = document.getElementById('bannerImage');
+        mgData = getBase64Image(bannerImage);
+        localStorage.setItem("imgData", imgData);
+
+
+        var dataImage = localStorage.getItem('imgData');
+        bannerImg = document.getElementById('tableBanner');
+        bannerImg.src = "data:image/png;base64," + dataImage;
+
+        var customer1 = JSON.stringify(customer);
+        localStorage.setItem('customer', customer1);
+        console.log("test",customer);
+
+        window.location.reload();
+
+                imgData = getBase64Image(userimage);
+    }
+
+</script>
+
+<script>
+
+    customer1 = localStorage.getItem('customer');
+    customer1 = JSON.parse(customer1);
+
+
+    document.getElementById("comment").innerHTML = customer1.userfeedback;
+
+
+    var del = function () {
+        localStorage.removeItem("customer");
+
+    }
+    function getBase64Image(img) {
+        // Create an empty canvas element
+        var canvas = document.createElement("canvas");
+        canvas.width = img.width;
+        canvas.height = img.height;
+
+        // Copy the image contents to the canvas
+        var ctx = canvas.getContext("2d");
+        ctx.drawImage(img, 0, 0);
+
+        // Get the data-URL formatted image
+        // Firefox supports PNG and JPEG. You could check img.src to guess the
+        // original format, but be aware the using "image/jpg" will re-encode the image.
+        var dataURL = canvas.toDataURL("image/png");
+
+        return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
+    }
+
+</script>
