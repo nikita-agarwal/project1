@@ -1,0 +1,262 @@
+
+body{
+    margin:0px;
+}
+.header {
+    background-color: #1947A3;
+    height: 120px;
+    width:auto;
+}
+.nav{
+    background-color:red;
+    height:40px;
+    width:auto;
+}
+.menu{
+
+    position: relative;
+    top: -12px;
+    width:auto;
+}
+.section{
+    background-color: #1947A3;
+    height:1500px;
+    margin-top:-189px;
+    margin-bottom:-189px;
+    width:auto;
+}
+.footer{
+    background-color: #192D56;
+    height:60px;
+    padding-top:100px;
+    padding-left:200px;
+    word-spacing:20px;
+    font-size:12px;
+    width:auto;
+}
+.block{
+    background-image:url(header.jpg);
+    background-repeat:no-repeat;
+    height:189px;
+    margin-bottom:-10px;
+    width:auto;
+    position:relative;
+    top:-119px;
+    left:189px;
+}
+.blocknew{
+    background-image:url(header.jpg);
+    background-repeat:no-repeat;
+    height:189px;
+    margin-bottom:-10px;
+    width:auto;
+    position:relative;
+    top:80px;
+    left:189px;
+}
+
+.products{
+    background-color: white;
+    width:650px;
+    height:1250px;
+    border-radius: 30px;
+    position:relative;
+    top:95px;
+    left:189px;
+    padding-top:40px;
+}
+.block1{
+    background-color:lightskyblue;
+    width:270px;
+    border-radius: 30px 30px 0px 30px;
+    height:200px;
+    float:right;
+    position:relative;
+
+    color:white;
+    text-align:center;
+}
+.block2{
+    background-color:red;
+    width:270px;
+    border-radius: 30px 30px 0px 30px;
+    height:150px;
+    float:right;
+    position:relative;
+    top:-45px;
+    left:300px;
+    color:white;
+    text-align:center;
+
+}
+.block3{
+    background-color:lightskyblue;
+    width:270px;
+    border-radius: 30px 30px 0px 30px;
+    height:100px;
+    float:right;
+    position:relative;
+    top:120px;
+    left:570px;
+    color:white;
+    text-align:center;
+}
+.block4{
+    background-image:url("bg_poll2.png");
+    width:270px;
+    border-radius: 30px 30px 0px 30px;
+    height:300px;
+    float:right;
+    position:relative;
+    top:240px;
+    left:840px;
+    color:white;
+    text-align:center;
+}
+.block5{
+    background-color:white;
+    width:270px;
+    border-radius: 30px 30px 0px 30px;
+    height:150px;
+    position:relative;
+    float:right;
+    right: 420px;
+    top: 265px;
+    color:cornflowerblue;
+    text-align:center;
+}
+.block6 {
+    background-color: lightskyblue;
+    width: 270px;
+    border-radius: 30px 30px 0px 30px;
+    height: 150px;
+    float: right;
+    position: relative;
+    right: 149px;
+    top: 440px;
+    color:white;
+    text-align:center;
+}
+a{
+    color:white;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration:underline;
+}
+#blank{
+    word-spacing:0px;
+    color:lightseagreen;
+
+}
+.first{
+    color:white;
+    height:100px;
+    width:100px;
+    line-height: 25px;
+    background-color: yellow;
+
+}
+#img{
+    float:right;
+    position:relative;
+    top: 610px;
+}
+.bar{
+    background-color: red;
+    height:40px;
+    width:650px;
+    border-radius:5px;
+}
+td{
+    padding-left: 30px;
+}
+ul{
+    color:white;
+    line-height: 25px;
+    font-size:12px;
+}
+.p {
+    color: white;
+    padding-left: 100px;
+}
+.button{
+    height:50px;
+    width:136px;
+    border-radius:10px;
+    border:0px;
+    color:cornflowerblue;
+    }
+.button:hover{
+    background-color:lightblue;
+    color:white;
+}
+.link{
+    color:cornflowerblue;
+    text-decoration: underline;
+    font-size:12px;
+}
+.button1{
+    border-radius: 10px;
+    height:35px;
+    width:75px;
+    position:relative;
+    top:-55px;
+    right:280px;
+    float:right;
+    border:0px;
+    margin:2px;
+    font-size: 12px;
+    color:cornflowerblue;
+}
+.button1:hover{
+    background-color: lightblue;
+    color:white;
+}
+.buttonsearch{
+    float: right;
+    position: relative;
+    right: 370px;
+    top: -98px;
+}.img1{
+     position: relative;
+     top: 100px;
+     left: 190px;
+
+ }
+ .img2{
+     position: relative;
+     top: 100px;
+     left: 180px;
+
+ }
+.fixed{
+    color:white;
+    background-color: red;
+    height:150px;
+    width:50px;
+    position:fixed;
+    padding-top:45px
+}
+.vertical{
+    transform:rotate(-90deg);
+
+}
+#searchimage{
+    float: right;
+    position: relative;
+    right: 615px;
+    top: -100px;
+}
+a img{
+    margin-left:30px;
+    margin-top:30px;
+}
+.welcome{
+    color:white;
+    position: relative;
+    top: -100px;
+    left: 700px;
+}
+
