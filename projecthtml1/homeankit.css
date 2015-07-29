@@ -1,0 +1,171 @@
+.header{
+    min-height: 30px;
+    background-color: black;
+}
+.p1{
+    color: white;
+    margin: 0px 0px 0px;
+    font-size: 20px;
+    text-align: center;
+    padding:0px 0px 2px 0px;
+    background-color:#D22573;
+}
+.p2{
+    margin: 0px;
+    color: white;
+    padding-top: 5px;
+}
+#nav1{
+    min-height:30px;
+    background-color:#F4F2F3;
+}
+.btn1{
+    min-height:30px;
+    background-color:#F4F2F3;
+    border-color: rgba(18, 19, 19, 0.09);
+    opacity: 1;
+    color: black;
+}
+#nav2 {
+    min-height: 60px;
+
+}
+.img-center {
+    margin:0 auto;
+}
+#nav3{
+    max-height: 40px;
+    background-color: #333;
+}
+.btn2{
+    max-height: 40px;
+    background-color: #333333;
+    color: #FFFFFF;
+    border-color: #333333;
+    padding: 0px;
+}
+.color{
+    background-color: #D22573;
+}
+.reg1{
+    background-color: #333333;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: white;
+}
+.section2{
+    width: 100%;
+}
+.footer{
+    background-color:#DDDDDD;
+    min-height: 30px;
+}
+.font1{
+    font-size: 19px;
+}
+.margin1{
+    margin-top: 10px;
+}
+.margin2{
+    margin-top: 15px;
+}
+.footer1{
+    width: 100%;
+    height: auto;
+    padding: 10px 0 20px;
+    background: #efefef;
+    box-shadow: 0 1px #f4f4f4;
+    font-size: 12px;
+    color: #6e6e6e;
+}
+.circular{
+    background-color:#CFCECE;
+    width:30px;
+    border-radius:50%;
+    text-align:center;
+    color: #6E6E6E;
+    border:2px solid #CFCECE;
+}
+.hr1{
+    color: #DBDBDB;
+    background-color: #DBDBDB;
+    height: 1px;
+}
+.row1{
+    font-size: 12px;
+    background-color:#efefef;;
+}
+.pre1{
+    font-size: 12px;
+    color: #666666;
+    background-color: #efefef;
+    border-color: #efefef;
+}
+.h:hover{
+    background-color: #A8AAAB;
+    border-color: #A8AAAB;
+}
+.h1:active{
+    background-color: #A8AAAB;
+    border-color: #A8AAAB;
+}
+.btn2:hover{
+    background-color: black;
+    border-color: black;
+
+
+
+}
+.h2:hover{
+    background-color: #333333;
+}
+.h:hover{
+    color: #333333;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+.nav{
+    font-size: 14px;
+    color:black;
+}
+nav>li>a:hover {
+    color: #FFF;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color:#333;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color:white;
+    background-color:black;
+    border-bottom: 1px solid #d22573;
+}
+.nav1:hover{
+   text-decoration:none;
+    color:black;
+}
+
+.nav1{
+    font-size: 12px;
+    color:black;
+}
+.new{
+    font-size:10px;
+    color:black;
+}
+.new1{
+    font-size:10px;
+    color:#d22573;
+}
+.new:hover{
+    color:#d22573;
+}
